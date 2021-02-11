@@ -1,0 +1,50 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Arvo|Corben|Lobster|Droid+Serif|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Vollkorn|Courgette|Abel|Sniglet|Ubuntu|PT+Sans|PT+Serif|PT+Mono';
+
+/* Example row */
+#row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+}
+#heading {
+	font-weight: 600;
+	font-family: "Raleway", "Lucida Grande", Helvetica, sans-serif;
+	font-size: 4vw;
+	margin-bottom: 0;
+	outline: none;
+	color: #a03123;
+}
+#strapline {
+	font-weight: 300;
+	font-size: 1.4vw;
+	font-family: "Raleway", "Lucida Grande", Helvetica, sans-serif;
+	color:#2b5235;
+	margin-top: .4rem;
+	outline: none;
+}
+
+.button {
+	font-size: 1vw;
+	padding: .5rem 1.1rem .4rem;
+	font-family: "Raleway", "Lucida Grande", Helvetica, sans-serif;
+	border: 1px solid;
+	border-radius: 1rem;
+	background: none;
+	color: #a03123;
+	display: inline-block;
+	text-decoration: none;
+}
+
+img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
